@@ -1,0 +1,167 @@
+/**/
+"Cancel" = "Avbryt";
+/**/
+"Delete" = "Slett";
+/**/
+"Open" = "Åpne";
+/**/
+"Edit" = "Rediger";
+/**/
+"Yes" = "Ja";
+
+/*Geometry Edit Action Name*/
+"Apply Geometry" = "Bruk geometri";
+/*Geometry Edit Action Name*/
+"Clear Geometry" = "Fjern geometri";
+/*Geometry Edit Action Name*/
+"Delete Vertex" = "Slett knekkpunkt";
+/*Geometry Edit Action Name*/
+"Insert Part" = "Sett inn del";
+/*Geometry Edit Action Name*/
+"Insert Vertex" = "Sett inn knekkpunkt";
+/*Geometry Edit Action Name*/
+"Move Vertex" = "Flytt knekkpunkt";
+/*Geometry Edit Action Name*/
+"Remove Part" = "Fjern del";
+
+/*Collecting attachments*/
+"Add" = "Legg til";
+/*Collecting attachments*/
+"Take Photo or Video" = "Ta foto eller video";
+/*Collecting attachments*/
+"Choose From Library" = "Velg fra bibliotek";
+/*Collecting attachments*/
+"Photo" = "Foto";
+/*Collecting attachments*/
+"Video" = "Video";
+/*Collecting attachments*/
+"Save To Photo Library" = "Lagre i fotobibliotek";
+/*Collecting attachments*/
+"Download" = "Last ned";
+
+/*Date attribute*/
+"Today" = "I dag";
+
+/**/
+"Attachments" = "Vedlegg";
+"Attributes" = "Attributter";
+
+/**/
+"Open in Safari" = "Åpne i Safari";
+
+/* Please enter a numeric value between 0 and 5.*/
+"RangeValueMessageInt" = "Oppgi et tall mellom %i og %i.";
+
+/* Please enter a numeric value between 0.5 and 5.0.*/
+"RangeValueMessageFloat" = "Oppgi et tall mellom %f og %f.";
+
+/* string length error, when user enters too many characters in string attribute editor:
+  Too many characters.  Current: 512.  Allowed: 256 */
+"StringLengthError" = "For mange tegn (%@)";
+
+/* When a number is entered outside the range */
+"Number is outside the acceptable range." = "Tallet er utenfor akseptabelt verdiområde.";
+
+/* BLOB, RASTER, etc */
+"Field type not supported" = "Felttypen støttes ikke";
+
+/**/
+"CurrentPageOfNumberOfPagesFormatString" = "%d av %d";
+
+/**/
+"ChangingFeatureTypeAlertTitle" = "Endrer geoobjekttype";
+"ChangingFeatureTypeAlertMessage" =  "Du endrer geoobjekttypen. Det kan muligens overskrive enkelte feltverdier. Er du sikker på at du vil gjøre dette?";
+
+/**/
+"Data for pie chart is invalid" = "Ugyldige data for sektordiagram";
+"No data to create a pie chart" = "Ingen data å opprette et sektordiagram fra";
+
+/**/
+"createUserSeconds" = "Opprettet av %@ for sekunder siden";
+
+/**/
+"createUserMinute" = "Opprettet av %@ for et minutt siden";
+
+/**/
+"editUserSeconds" = "Redigert av %@ for sekunder siden";
+
+/**/
+"editUserMinute" = "Redigert av %@ for et minutt siden";
+
+/**/
+"createSeconds" = "Opprettet for sekunder siden";
+
+/**/
+"createMinute" = "Opprettet for et minutt siden";
+
+/**/
+"editSeconds" = "Redigert for sekunder siden";
+
+/**/
+"editMinute" = "Redigert for et minutt siden";
+
+/**/
+"createUserMinutes" = "Opprettet av %@ for %d minutter siden";
+
+/**/
+"createUserHour" = "Opprettet av %@ for en time siden";
+
+/**/
+"createUserHours" = "Opprettet av %@ for %d timer siden";
+
+/*"Created by %@ on ${weekDay} at ${formattedTime}"*/
+"createUserWeekDay" = "Opprettet av %@ %@ %@";
+
+/*"Created by %@ on ${formattedDate} at ${formattedTime}"*/
+"createUserFull" = "Opprettet av %@ %@ %@";
+
+/**/
+"editUserMinutes" = "Redigert av %@ for %d minutter siden";
+
+/**/
+"editUserHour" = "Redigert av %@ for en time siden";
+
+/**/
+"editUserHours" = "Redigert av %@ for %d timer siden";
+
+/**/
+"editUserWeekDay" = "Redigert av %@ %@ %@";
+
+/**/
+"editUserFull" = "Redigert av %@ %@ %@";
+
+/**/
+"createUser" = "Opprettet av %@";
+
+/**/
+"editUser" = "Redigert av %@";
+
+/**/
+"createMinutes" = "Opprettet for %d minutter siden";
+
+/**/
+"createHour" = "Opprettet for en time siden";
+
+/**/
+"createHours" = "Opprettet for %d timer siden";
+
+/*"Created on ${weekDay} at ${formattedTime}"*/
+"createWeekDay" = "Opprettet %@ %@";
+
+/*"Created on ${formattedDate} at ${formattedTime}"*/
+"createFull" = "Opprettet %@ %@";
+
+/**/
+"editMinutes" = "Redigert for %d minutter siden";
+
+/**/
+"editHour" = "Redigert for en time siden";
+
+/**/
+"editHours" = "Redigert for %d timer siden";
+
+/*"Edited on ${weekDay} at ${formattedTime}"*/
+"editWeekDay" = "Redigert %@ %@";
+
+/*"Edited on ${formattedDate} at ${formattedTime}"*/
+"editFull" = "Redigert %@ %@";

@@ -1,0 +1,167 @@
+/**/
+"Cancel" = "Cancel";
+/**/
+"Delete" = "Delete";
+/**/
+"Open" = "Open";
+/**/
+"Edit" = "Edit";
+/**/
+"Yes" = "Yes";
+
+/*Geometry Edit Action Name*/
+"Apply Geometry" = "Apply Geometry";
+/*Geometry Edit Action Name*/
+"Clear Geometry" = "Clear Geometry";
+/*Geometry Edit Action Name*/
+"Delete Vertex" = "Delete Vertex";
+/*Geometry Edit Action Name*/
+"Insert Part" = "Insert Part";
+/*Geometry Edit Action Name*/
+"Insert Vertex" = "Insert Vertex";
+/*Geometry Edit Action Name*/
+"Move Vertex" = "Move Vertex";
+/*Geometry Edit Action Name*/
+"Remove Part" = "Remove Part";
+
+/*Collecting attachments*/
+"Add" = "Add";
+/*Collecting attachments*/
+"Take Photo or Video" = "Take Photo or Video";
+/*Collecting attachments*/
+"Choose From Library" = "Choose From Library";
+/*Collecting attachments*/
+"Photo" = "Photo";
+/*Collecting attachments*/
+"Video" = "Video";
+/*Collecting attachments*/
+"Save To Photo Library" = "Save To Photo Library";
+/*Collecting attachments*/
+"Download" = "Download";
+
+/*Date attribute*/
+"Today" = "Today";
+
+/**/
+"Attachments" = "Attachments";
+"Attributes" = "Attributes";
+
+/**/
+"Open in Safari" = "Open in Safari";
+
+/* Please enter a numeric value between 0 and 5.*/
+"RangeValueMessageInt" = "Enter a number between %i and %i.";
+
+/* Please enter a numeric value between 0.5 and 5.0.*/
+"RangeValueMessageFloat" = "Enter a number between %f and %f.";
+
+/* string length error, when user enters too many characters in string attribute editor:
+  Too many characters.  Current: 512.  Allowed: 256 */
+"StringLengthError" = "Too many characters (%@)";
+
+/* When a number is entered outside the range */
+"Number is outside the acceptable range." = "Number is outside the acceptable range.";
+
+/* BLOB, RASTER, etc */
+"Field type not supported" = "Field type not supported";
+
+/**/
+"CurrentPageOfNumberOfPagesFormatString" = "%d of %d";
+
+/**/
+"ChangingFeatureTypeAlertTitle" = "Changing Feature Type";
+"ChangingFeatureTypeAlertMessage" =  "You are changing the feature type, which may potentially overwrite some field values. Are you sure you want to do this?";
+
+/**/
+"Data for pie chart is invalid" = "Data for pie chart is invalid";
+"No data to create a pie chart" = "No data to create a pie chart";
+
+/**/
+"createUserSeconds" = "Created by %@ seconds ago";
+
+/**/
+"createUserMinute" = "Created by %@ a minute ago";
+
+/**/
+"editUserSeconds" = "Edited by %@ seconds ago";
+
+/**/
+"editUserMinute" = "Edited by %@ a minute ago";
+
+/**/
+"createSeconds" = "Created seconds ago";
+
+/**/
+"createMinute" = "Created a minute ago";
+
+/**/
+"editSeconds" = "Edited seconds ago";
+
+/**/
+"editMinute" = "Edited a minute ago";
+
+/**/
+"createUserMinutes" = "Created by %@ %d minutes ago";
+
+/**/
+"createUserHour" = "Created by %@ an hour ago";
+
+/**/
+"createUserHours" = "Created by %@ %d hours ago";
+
+/*"Created by %@ on ${weekDay} at ${formattedTime}"*/
+"createUserWeekDay" = "Created by %@ on %@ at %@";
+
+/*"Created by %@ on ${formattedDate} at ${formattedTime}"*/
+"createUserFull" = "Created by %@ on %@ at %@";
+
+/**/
+"editUserMinutes" = "Edited by %@ %d minutes ago";
+
+/**/
+"editUserHour" = "Edited by %@ an hour ago";
+
+/**/
+"editUserHours" = "Edited by %@ %d hours ago";
+
+/**/
+"editUserWeekDay" = "Edited by %@ on %@ at %@";
+
+/**/
+"editUserFull" = "Edited by %@ on %@ at %@";
+
+/**/
+"createUser" = "Created by %@";
+
+/**/
+"editUser" = "Edited by %@";
+
+/**/
+"createMinutes" = "Created %d minutes ago";
+
+/**/
+"createHour" = "Created an hour ago";
+
+/**/
+"createHours" = "Created %d hours ago";
+
+/*"Created on ${weekDay} at ${formattedTime}"*/
+"createWeekDay" = "Created on %@ at %@";
+
+/*"Created on ${formattedDate} at ${formattedTime}"*/
+"createFull" = "Created on %@ at %@";
+
+/**/
+"editMinutes" = "Edited %d minutes ago";
+
+/**/
+"editHour" = "Edited an hour ago";
+
+/**/
+"editHours" = "Edited %d hours ago";
+
+/*"Edited on ${weekDay} at ${formattedTime}"*/
+"editWeekDay" = "Edited on %@ at %@";
+
+/*"Edited on ${formattedDate} at ${formattedTime}"*/
+"editFull" = "Edited on %@ at %@";
