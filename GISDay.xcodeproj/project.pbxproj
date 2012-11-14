@@ -20,6 +20,7 @@
 		C234B09816502AC6002DEA26 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C234B09716502AC6002DEA26 /* bg.jpg */; };
 		C286487415EE63F1005C5EDB /* DadosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C286487315EE63F1005C5EDB /* DadosViewController.m */; };
 		C286488315EEA9A8005C5EDB /* dotted.png in Resources */ = {isa = PBXBuildFile; fileRef = C286488215EEA9A8005C5EDB /* dotted.png */; };
+		C28A356D1653F40700B078F1 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C28A356C1653F40700B078F1 /* DejalActivityView.m */; };
 		C2BF38B015D9B0FB00442899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF38AF15D9B0FB00442899 /* UIKit.framework */; };
 		C2BF38B215D9B0FB00442899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF38B115D9B0FB00442899 /* Foundation.framework */; };
 		C2BF38B415D9B0FB00442899 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF38B315D9B0FB00442899 /* CoreGraphics.framework */; };
@@ -98,6 +99,8 @@
 		C286487215EE63F1005C5EDB /* DadosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DadosViewController.h; sourceTree = "<group>"; };
 		C286487315EE63F1005C5EDB /* DadosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DadosViewController.m; sourceTree = "<group>"; };
 		C286488215EEA9A8005C5EDB /* dotted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotted.png; sourceTree = "<group>"; };
+		C28A356B1653F40700B078F1 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		C28A356C1653F40700B078F1 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		C2BF38AB15D9B0FB00442899 /* GISDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GISDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BF38AF15D9B0FB00442899 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C2BF38B115D9B0FB00442899 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -253,7 +256,7 @@
 				C2BF38DD15D9B5C400442899 /* View */,
 				C2BF38DE15D9B5D800442899 /* Controller */,
 				C2E2D32315EA7BCC0082A0F3 /* Callout */,
-				C2BF390715D9CE5A00442899 /* Component */,
+				C2BF390715D9CE5A00442899 /* Components */,
 				C2BF38BE15D9B0FB00442899 /* AppDelegate.h */,
 				C2BF38BF15D9B0FB00442899 /* AppDelegate.m */,
 				C2BF38DA15D9B5A300442899 /* Resources */,
@@ -309,7 +312,7 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		C2BF390715D9CE5A00442899 /* Component */ = {
+		C2BF390715D9CE5A00442899 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				C2BF390815D9CE7100442899 /* BlockActionSheet.h */,
@@ -320,8 +323,10 @@
 				C2BF390D15D9CE7100442899 /* BlockBackground.m */,
 				C2BF390E15D9CE7100442899 /* BlockTextPromptAlertView.h */,
 				C2BF390F15D9CE7100442899 /* BlockTextPromptAlertView.m */,
+				C28A356B1653F40700B078F1 /* DejalActivityView.h */,
+				C28A356C1653F40700B078F1 /* DejalActivityView.m */,
 			);
-			name = Component;
+			name = Components;
 			sourceTree = "<group>";
 		};
 		C2BF391415D9D01600442899 /* ActionSheet */ = {
@@ -534,6 +539,7 @@
 				C2E2D32B15EA90060082A0F3 /* People.m in Sources */,
 				C286487415EE63F1005C5EDB /* DadosViewController.m in Sources */,
 				C2CEC38715F0DFD900CC6A40 /* Helper.m in Sources */,
+				C28A356D1653F40700B078F1 /* DejalActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,7 +632,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aqui tem GIS/GISDay-Prefix.pch";
 				INFOPLIST_FILE = "Aqui tem GIS/GISDay-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -646,7 +653,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aqui tem GIS/GISDay-Prefix.pch";
 				INFOPLIST_FILE = "Aqui tem GIS/GISDay-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",

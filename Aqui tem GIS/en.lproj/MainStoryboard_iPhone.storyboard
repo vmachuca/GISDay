@@ -276,7 +276,7 @@
                                             <action selector="lblEmpresaEditEnd:" destination="W2M-iG-Nmi" eventType="editingDidEnd" id="wbf-I3-88j"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Catergoria" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="IQJ-Pm-msR">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Categoria" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="IQJ-Pm-msR">
                                         <rect key="frame" x="10" y="133" width="256" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
@@ -380,9 +380,6 @@
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
-        <class className="AGSMapView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AGSMapView.h"/>
-        </class>
         <class className="DadosViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DadosViewController.h"/>
             <relationships>
